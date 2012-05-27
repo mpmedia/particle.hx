@@ -7,7 +7,8 @@ class EventBase {
 	private static var m_asyncSenders:Array<Dynamic> = new Array<Dynamic>();
 	private static var m_asyncEvents:Array<Dynamic> = new Array<Dynamic>();
 	
-	public function new(){
+	public function new() {
+		//@TODO change m_async behavior when application ticks are implemented
 		m_async = false;
 		m_handler = null;
 		m_handlers = null;
