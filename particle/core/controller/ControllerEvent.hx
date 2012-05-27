@@ -1,4 +1,4 @@
-package particle.core.model;
+package particle.core.controller;
 
 import particle.core.tools.EventBase;
 import particle.core.tools.GenericEvent;
